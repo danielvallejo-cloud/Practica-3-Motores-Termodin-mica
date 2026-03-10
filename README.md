@@ -34,7 +34,7 @@ Este repositorio contiene el modelado termodinámico y geométrico de un motor d
 ![Resultados](par%20corregido.jpg)
 *Figura 2*
 
-![Resultados](par%20par%20corregido.jpg)
+![Resultados](par,%20par%20corregido.jpg)
 *Figura 3*
 
 ![Resultados](potencia,%20potencia%20corregida.jpg)
