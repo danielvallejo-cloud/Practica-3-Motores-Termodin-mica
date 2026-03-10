@@ -27,39 +27,18 @@ Este repositorio contiene el modelado termodinámico y geométrico de un motor d
 3.  **Corrección Atmosférica (Loja):** Modelado del flujo volumétrico de aire según la densidad ambiental (Presión y Temperatura).
 
 ## 5. Resultados Gráficos (Simulación EES)
+![figura3](https://github.com/user-attachments/assets/d7a0926f-fc80-4060-8299-2350ce88cf8c)
+![figura2](https://github.com/user-attachments/assets/74c88f3c-6764-4dcb-8c0e-25ca97372d6d)
+![figura1](https://github.com/user-attachments/assets/78a9f95d-0347-4e0b-8b59-77f3edc94c7c)
+![figura5](https://github.com/user-attachments/assets/1055b62f-0292-4b54-aa64-e7cc5f26feef)
+![figura4](https://github.com/user-attachments/assets/15d8de90-968e-4a70-9943-2af5a4a84fbf)
+![figura9](https://github.com/user-attachments/assets/736c515e-9840-4652-bec5-bfaba3e81372)
+![figura8](https://github.com/user-attachments/assets/dd4cf5a6-6a75-4b2e-a9f5-44cbc8e0376f)
+![figura7](https://github.com/user-attachments/assets/91004525-a0cf-4400-ada5-767d4d3e5b3c)
+![figura6](https://github.com/user-attachments/assets/4dfe0c0d-4cc0-4d07-b510-ecea7fdb9df0)
+![figura11](https://github.com/user-attachments/assets/81b3338f-2595-4f71-b997-006bea2f0034)
+![figura10](https://github.com/user-attachments/assets/9c3e03d6-e63d-47f8-b399-9eec56e385c2)
 
-![Resultados](par,%20potencia%20y%20consumo%20especifico.jpg)
-*Figura 1*
-
-![Resultados](par%20corregido.jpg)
-*Figura 2*
-
-![Resultados](par,%20par%20corregido.jpg)
-*Figura 3*
-
-![Resultados](potencia,%20potencia%20corregida.jpg)
-*Figura 4*
-
-![Resultados](consumo,%20consumo%20especifico.jpg)
-*Figura 5*
-
-![Resultados](Volumen%20unitario%20(+25%).jpg)
-*Figura 6*
-
-![Resultados](Volumen%20unitario%20(-25%).jpg)
-*Figura 7*
-
-![Resultados](Volumen%20de%20camara%20(+15%).jpg)
-*Figura 8*
-
-![Resultados](Volumen%20de%20camara%20(-15%).jpg)
-*Figura 9*
-
-![Resultados](Densidad%20del%20aire%20(+).jpg)
-*Figura 10*
-
-![Resultados](Densidad del aire (-).jpg)
-*Figura 11*
 
 
 ---
