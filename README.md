@@ -10,9 +10,9 @@
 Este repositorio contiene el modelado termodinámico y geométrico de un motor de encendido provocado (MEP) desarrollado en el software **Engineering Equation Solver (EES)**. El objetivo principal es el análisis de curvas multiparamétricas y la sensibilidad del desempeño ante variaciones de cilindrada, relación de compresión y condiciones atmosféricas.
 
 ## 2. Archivos del Repositorio
-*   `Simulacion_Motor.EES`: Archivo fuente original ejecutable en EES Profesional.
-*   `Codigo_Fuente.txt`: Copia en texto plano de las ecuaciones implementadas para revisión rápida.
-*   `/Resultados`: Carpeta con capturas de las tablas paramétricas y gráficas generadas.
+*   [📥 **Descargar Ejercicio 1.EES**](./Ejercicio%201.EES) - Resolución del motor de 1360 cm³ (Banco de ensayos y condiciones de Loja).
+*   [📥 **Descargar Ejercicio 2.EES**](./Ejercicio%202.EES) - Análisis paramétrico y de sensibilidad (Variación de Vh y Vc).
+*   [📄 **Ver Codigo_Fuente.txt**](./Codigo_Fuente.txt) - Respaldo en texto plano de las ecuaciones implementadas.
 
 ## 3. Parámetros de Diseño del Motor Modelado
 *   **Tipo:** 4 tiempos, 4 cilindros.
