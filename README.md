@@ -2,12 +2,11 @@
 **Asignatura:** Termodinámica de Máquinas Térmicas (EM6P2A3)  
 **Maestría en Ingeniería Automotriz** - Universidad Nacional de Loja  
 **Autor:** GRUPAL
-**Fecha de Ejecución:** 7 de marzo de 2026
 
 ---
 
 ## 1. Descripción del Proyecto
-Este repositorio contiene el modelado termodinámico y geométrico de un motor de encendido provocado (MEP) desarrollado en el software **Engineering Equation Solver (EES)**. El objetivo principal es el análisis de curvas multiparamétricas y la sensibilidad del desempeño ante variaciones de cilindrada, relación de compresión y condiciones atmosféricas.
+Esta web contiene el modelado termodinámico y geométrico de un motor de encendido provocado (MEP) desarrollado en el software **Engineering Equation Solver (EES)**. El objetivo principal es el análisis de curvas multiparamétricas y la sensibilidad del desempeño ante variaciones de cilindrada, relación de compresión y condiciones atmosféricas.
 
 ## 2. Archivos del Repositorio
 *   [📥 **Descargar Ejercicio 1.EES**](./Ejercicio%201.EES) - Resolución del motor de 1360 cm³ (Banco de ensayos y condiciones de Loja).
@@ -15,16 +14,34 @@ Este repositorio contiene el modelado termodinámico y geométrico de un motor d
 *   [📄 **Ver Codigo_Fuente.txt**](./Codigo_Fuente.txt) - Respaldo en texto plano de las ecuaciones implementadas.
 
 ## 3. Parámetros de Diseño del Motor Modelado
+### Motor del Ejercicio 1 (Ensayo de Banco y Corrección Atmosférica)
+*   **Cilindrada Total:** 1360 $cm^3$
+*   **Geometría:** Diámetro 75 mm | Carrera 77 mm.
+*   **Relación de Compresión:** 9.5:1.
+*   **Potencia Nominal:** 55 kW a 6000 rpm.
+*   **Par Motor Máximo:** 122 N·m a 4000 rpm.
+*   **Volumen Unitario (Vh):** 340 $cm^3$
+*   **Volumen de Cámara (Vc):** 40 $cm^3$
+
+### Motor del Ejercicio 2 (Análisis Paramétrico y Sensibilidad)
 *   **Tipo:** 4 tiempos, 4 cilindros.
 *   **Geometría:** Diámetro 89.6 mm | Carrera 91 mm.
 *   **Relación de Compresión Base:** 10:1.
 *   **Potencia Nominal:** 94.57 kW a 4500 rpm.
+*   **Volumen Unitario (Vh):** 573.75 $cm^3$
+*   **Volumen de Cámara (Vc):** 63.75 $cm^3$
 *   **Combustible:** Gasolina (AFR = 14.5).
 
 ## 4. Casos de Estudio Implementados
-1.  **Variación de Cilindrada (±25%):** Análisis del impacto del volumen unitario ($V_h$) sobre la potencia y el flujo másico.
-2.  **Sensibilidad de la Cámara de Combustión (±15%):** Influencia del volumen muerto ($V_c$) en la relación de compresión recalculada.
-3.  **Corrección Atmosférica (Loja):** Modelado del flujo volumétrico de aire según la densidad ambiental (Presión y Temperatura).
+### Ejercicio 1: Análisis de Desempeño y Corrección Atmosférica (Motor 1.36L)
+1.  **Evaluación en Banco de Ensayos:** Cálculo de la potencia efectiva ($N_e$) y consumo específico ($C_e$) a partir de datos experimentales de par y tiempo de consumo.
+2.  **Modelado de Corrección Atmosférica (Loja):** Aplicación del factor de corrección $k$ para determinar la pérdida de prestaciones (par y potencia) debido a la baja presión barométrica ($595\ mmHg$) y temperatura de la ciudad de Loja.
+3.  **Análisis de Elasticidad:** Determinación de los coeficientes de par, velocidad y elasticidad total para evaluar la flexibilidad operativa del motor.
+
+### Ejercicio 2: Análisis de Sensibilidad Geométrica y Paramétrica (Motor 2.3L)
+1.  **Variación de Cilindrada Unitaria (±25%):** Simulación del impacto del volumen desplazado ($V_h$) sobre el escalamiento de la potencia efectiva y el flujo másico de combustible ($C_h$).
+2.  **Sensibilidad del Volumen de Cámara (±15%):** Estudio de la variación crítica en la relación de compresión recalculada ($r_c$) al modificar el espacio muerto de la culata ($V_c$).
+3.  **Modelado de Flujo Volumétrico:** Análisis de la relación inversa entre la densidad del aire ambiental y el volumen de aspiración requerido por el motor para mantener la estequiometría.
 
 ## 5. Resultados Gráficos (Simulación EES)
 ![figura3](https://github.com/user-attachments/assets/d7a0926f-fc80-4060-8299-2350ce88cf8c)
