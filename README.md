@@ -26,11 +26,41 @@ Este repositorio contiene el modelado termodinámico y geométrico de un motor d
 2.  **Sensibilidad de la Cámara de Combustión (±15%):** Influencia del volumen muerto ($V_c$) en la relación de compresión recalculada.
 3.  **Corrección Atmosférica (Loja):** Modelado del flujo volumétrico de aire según la densidad ambiental (Presión y Temperatura).
 
-## 5. Instrucciones de Uso
-1.  Descargar el archivo `.EES`.
-2.  Abrir en **EES Professional**.
-3.  Presionar `F3` para ejecutar las Tablas Paramétricas.
-4.  Consultar la ventana de `Plots` para visualizar las curvas características.
+## 5. Resultados Gráficos (Simulación EES)
+
+![Resultados](par, potencia y consumo especifico.jpg)
+*Figura 1*
+
+![Resultados](par corregido.jpg)
+*Figura 2*
+
+![Resultados](par par corregido.jpg)
+*Figura 3*
+
+![Resultados](potencia, potencia corregida.jpg)
+*Figura 4*
+
+![Resultados](consumo, consumo especifico.jpg)
+*Figura 5*
+
+![Resultados](Volumen unitario (+25%).jpg)
+*Figura 6*
+
+![Resultados](Volumen unitario (-25%).jpg)
+*Figura 7*
+
+![Resultados](Volumen de camara (+15%).jpg)
+*Figura 8*
+
+![Resultados](Volumen de camara (-15%).jpg)
+*Figura 9*
+
+![Resultados](Densidad del aire (+).jpg)
+*Figura 10*
+
+![Resultados](Densidad del aire (-).jpg)
+*Figura 11*
+
 
 ---
 *Documentación generada para la Práctica de Laboratorio Nro. 3 - 2026.*
