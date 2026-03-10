@@ -28,34 +28,34 @@ Este repositorio contiene el modelado termodinámico y geométrico de un motor d
 
 ## 5. Resultados Gráficos (Simulación EES)
 
-![Resultados](par, potencia y consumo especifico.jpg)
+![Resultados](par,%20potencia%20y%20consumo%20especifico.jpg)
 *Figura 1*
 
-![Resultados](par corregido.jpg)
+![Resultados](par%20corregido.jpg)
 *Figura 2*
 
-![Resultados](par par corregido.jpg)
+![Resultados](par%20par%20corregido.jpg)
 *Figura 3*
 
-![Resultados](potencia, potencia corregida.jpg)
+![Resultados](potencia,%20potencia%20corregida.jpg)
 *Figura 4*
 
-![Resultados](consumo, consumo especifico.jpg)
+![Resultados](consumo,%20consumo%20especifico.jpg)
 *Figura 5*
 
-![Resultados](Volumen unitario (+25%).jpg)
+![Resultados](Volumen%20unitario%20(+25%).jpg)
 *Figura 6*
 
-![Resultados](Volumen unitario (-25%).jpg)
+![Resultados](Volumen%20unitario%20(-25%).jpg)
 *Figura 7*
 
-![Resultados](Volumen de camara (+15%).jpg)
+![Resultados](Volumen%20de%20camara%20(+15%).jpg)
 *Figura 8*
 
-![Resultados](Volumen de camara (-15%).jpg)
+![Resultados](Volumen%20de%20camara%20(-15%).jpg)
 *Figura 9*
 
-![Resultados](Densidad del aire (+).jpg)
+![Resultados](Densidad%20del%20aire%20(+).jpg)
 *Figura 10*
 
 ![Resultados](Densidad del aire (-).jpg)
