@@ -14,32 +14,32 @@ Esta web contiene el modelado termodinámico y geométrico de un motor de encend
 
 ## 3. Parámetros de Diseño del Motor Modelado
 ### Motor del Ejercicio 1 (Ensayo de Banco y Corrección Atmosférica)
-*   **Cilindrada Total:** 1360 $cm^3$
+*   **Cilindrada Total:** 1360 cm³
 *   **Geometría:** Diámetro 75 mm | Carrera 77 mm.
 *   **Relación de Compresión:** 9.5:1.
 *   **Potencia Nominal:** 55 kW a 6000 rpm.
 *   **Par Motor Máximo:** 122 N·m a 4000 rpm.
-*   **Volumen Unitario (Vh):** 340 $cm^3$
-*   **Volumen de Cámara (Vc):** 40 $cm^3$
+*   **Volumen Unitario (Vh):** 340 cm³
+*   **Volumen de Cámara (Vc):** 40 cm³
 
 ### Motor del Ejercicio 2 (Análisis Paramétrico y Sensibilidad)
 *   **Tipo:** 4 tiempos, 4 cilindros.
 *   **Geometría:** Diámetro 89.6 mm | Carrera 91 mm.
 *   **Relación de Compresión Base:** 10:1.
 *   **Potencia Nominal:** 94.57 kW a 4500 rpm.
-*   **Volumen Unitario (Vh):** 573.75 $cm^3$
-*   **Volumen de Cámara (Vc):** 63.75 $cm^3$
+*   **Volumen Unitario (Vh):** 573.75 cm³
+*   **Volumen de Cámara (Vc):** 63.75 cm³
 *   **Combustible:** Gasolina (AFR = 14.5).
 
 ## 4. Casos de Estudio Implementados
 ### Ejercicio 1: Análisis de Desempeño y Corrección Atmosférica (Motor 1.36L)
-1.  **Evaluación en Banco de Ensayos:** Cálculo de la potencia efectiva ($N_e$) y consumo específico ($C_e$) a partir de datos experimentales de par y tiempo de consumo.
-2.  **Modelado de Corrección Atmosférica (Loja):** Aplicación del factor de corrección $k$ para determinar la pérdida de prestaciones (par y potencia) debido a la baja presión barométrica ($595\ mmHg$) y temperatura de la ciudad de Loja.
+1.  **Evaluación en Banco de Ensayos:** Cálculo de la potencia efectiva (**Ne**) y consumo específico (**Ce**) a partir de datos experimentales de par y tiempo de consumo.
+2.  **Modelado de Corrección Atmosférica (Loja):** Aplicación del factor de corrección **k** para determinar la pérdida de prestaciones (par y potencia) debido a la baja presión barométrica (595 mmHg) y temperatura de la ciudad de Loja.
 3.  **Análisis de Elasticidad:** Determinación de los coeficientes de par, velocidad y elasticidad total para evaluar la flexibilidad operativa del motor.
 
 ### Ejercicio 2: Análisis de Sensibilidad Geométrica y Paramétrica (Motor 2.3L)
-1.  **Variación de Cilindrada Unitaria (±25%):** Simulación del impacto del volumen desplazado ($V_h$) sobre el escalamiento de la potencia efectiva y el flujo másico de combustible ($C_h$).
-2.  **Sensibilidad del Volumen de Cámara (±15%):** Estudio de la variación crítica en la relación de compresión recalculada ($r_c$) al modificar el espacio muerto de la culata ($V_c$).
+1.  **Variación de Cilindrada Unitaria (±25%):** Simulación del impacto del volumen desplazado (**Vh**) sobre el escalamiento de la potencia efectiva y el flujo másico de combustible (**Ch**).
+2.  **Sensibilidad del Volumen de Cámara (±15%):** Estudio de la variación crítica en la relación de compresión recalculada (**rc**) al modificar el espacio muerto de la culata (**Vc**).
 3.  **Modelado de Flujo Volumétrico:** Análisis de la relación inversa entre la densidad del aire ambiental y el volumen de aspiración requerido por el motor para mantener la estequiometría.
 
 ## 5. Resultados Gráficos (Simulación EES)
