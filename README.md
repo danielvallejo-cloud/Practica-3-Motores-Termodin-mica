@@ -11,7 +11,7 @@ Esta web contiene el modelado termodinámico y geométrico de un motor de encend
 ## 2. Archivos del Repositorio
 *   [📥 **Descargar Ejercicio 1.EES**](./Ejercicio%201.EES) - Resolución del motor de 1360 cm³ (Banco de ensayos y condiciones de Loja).
 *   [📥 **Descargar Ejercicio 2.EES**](./Ejercicio%202.EES) - Análisis paramétrico y de sensibilidad (Variación de Vh y Vc).
-*   [📄 **Ver Codigo_Fuente.txt**](./Codigo_Fuente.txt) - Respaldo en texto plano de las ecuaciones implementadas.
+*   [📄 **Ver Codigo_Fuente.txt**](./Ejercicio%202.txt) - Respaldo en texto plano de las ecuaciones implementadas.
 
 ## 3. Parámetros de Diseño del Motor Modelado
 ### Motor del Ejercicio 1 (Ensayo de Banco y Corrección Atmosférica)
